@@ -76,7 +76,7 @@ $(".content").niceScroll({
 
 
 $('#submenu').click(function(){
-    $('.submenu').slideToggle().delay(1500)
+    $('.submenu').slideToggle()
 })
 
 $('.close-func').click(function(){
