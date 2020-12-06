@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #FFF;
+    scroll-behavior: smooth;
 }
 ::selection {
     color:#FFF;
@@ -109,7 +110,6 @@ nav i{
     padding: 13px 0;
     width: 100%;
     transition:color 0.5s ease-in-out,
-
 }
 nav i:hover:not(.active){
     color: var(--green);
@@ -267,7 +267,6 @@ hr{
 .about-skills{
     width: 100%;
     margin:50px 0%;
-    
 }
 
 .about-skills .title{
@@ -517,7 +516,6 @@ hr{
     width: 32%;
     margin-bottom: 2%;
     overflow: hidden;
-    perspective: 600px;
 }
 .photos div img{
     width: 100%;
